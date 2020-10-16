@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FCMapboxHelper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FCMapboxHelper.'
+  s.version          = '0.2.0'
+  s.summary          = 'Mapbox Helper Classes'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Helper Classes for Mapbox usage under Appcelerator Titanium
                        DESC
 
-  s.homepage         = 'https://github.com/Igor Kalashnikov/FCMapboxHelper'
+  s.homepage         = 'https://github.com/zo0m/FCMapboxHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Igor Kalashnikov' => 'zo0m.cfg@gmail.com' }
-  s.source           = { :git => 'https://github.com/Igor Kalashnikov/FCMapboxHelper.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zo0m/FCMapboxHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'FCMapboxHelper/Classes/**/*'
+  
+  s.swift_version = '5.1.3'
   
   # s.resource_bundles = {
   #   'FCMapboxHelper' => ['FCMapboxHelper/Assets/*.png']

@@ -12,7 +12,7 @@
 		1F507B212EA163CFE31CF59575FD1759 /* Pods-FCMapboxHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A782CA9D6C10B26122F143A3936B5A /* Pods-FCMapboxHelper_Example-dummy.m */; };
 		302F7CC382099E81CCF4CD96D463631A /* FCMapboxHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E89F0E8CD7A215BD2AFB7B6027EB9D4 /* FCMapboxHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47054787B090D4AAABF8FCF116BE9B8D /* FCMapboxHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7398B060AFBB7AAD7F5122A87F9BEE /* FCMapboxHelper-dummy.m */; };
-		796D7CB81EC3078961523632B5B93370 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D10FA69046BAE424206300A9D9891E /* ReplaceMe.swift */; };
+		84BD624B2539DDD300710DF4 /* MGLDragDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD624A2539DDD300710DF4 /* MGLDragDelegate.swift */; };
 		9DE1BB8CD67EF60954E4D1D716C3155C /* Pods-FCMapboxHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01BAB492FAD5561B3C1FC77DBE373AD0 /* Pods-FCMapboxHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF7D96322CF2B779364F3F2B820B9806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D9F14624F720359AA86538857A87CBFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -41,31 +41,31 @@
 		01BAB492FAD5561B3C1FC77DBE373AD0 /* Pods-FCMapboxHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCMapboxHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
 		02364E55DC31EA8B24D1D36304444725 /* Pods-FCMapboxHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCMapboxHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		02FB2EFA6C5C7DA0677E40316F7F02F7 /* Pods-FCMapboxHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCMapboxHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		080706A29E202516AC014D3B90E51254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		080706A29E202516AC014D3B90E51254 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		232D757B31BA58D3158F879B32C5CB8F /* Pods-FCMapboxHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCMapboxHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30A782CA9D6C10B26122F143A3936B5A /* Pods-FCMapboxHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCMapboxHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35AE61FDC98F5F4BFB2177F10E491952 /* Pods-FCMapboxHelper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCMapboxHelper_Tests-Info.plist"; sourceTree = "<group>"; };
 		3C5DA282CD497D632F752AD2DAECFE70 /* FCMapboxHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCMapboxHelper-Info.plist"; sourceTree = "<group>"; };
-		4A2A6A0F55D095EA997E265FF54D89E5 /* Pods_FCMapboxHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCMapboxHelper_Tests.framework; path = "Pods-FCMapboxHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2A6A0F55D095EA997E265FF54D89E5 /* Pods_FCMapboxHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCMapboxHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB64DE63F89ED68EA04AF09AFFB067D /* Pods-FCMapboxHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCMapboxHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5E89F0E8CD7A215BD2AFB7B6027EB9D4 /* FCMapboxHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCMapboxHelper-umbrella.h"; sourceTree = "<group>"; };
 		7376CC996740B5FA42064CAC36971671 /* Pods-FCMapboxHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCMapboxHelper_Example.modulemap"; sourceTree = "<group>"; };
 		7C01EC2BDC17689EE001D27FA33B3B54 /* Pods-FCMapboxHelper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCMapboxHelper_Example-Info.plist"; sourceTree = "<group>"; };
+		84BD624A2539DDD300710DF4 /* MGLDragDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGLDragDelegate.swift; sourceTree = "<group>"; };
 		8ABCC6E64A40E2C85E6BF87FCD9E0CB3 /* Pods-FCMapboxHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FCMapboxHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		917BB85CE87369706D8BC1A0C0BBBDFF /* Pods-FCMapboxHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FCMapboxHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		98C9BAE9878EC635DB09176423D1952C /* Pods-FCMapboxHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCMapboxHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A173568903E7B44C5C738E5B5D9814D2 /* FCMapboxHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCMapboxHelper.debug.xcconfig; sourceTree = "<group>"; };
-		A1E19BF80A34D0C3AE1798D363875C6F /* FCMapboxHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FCMapboxHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A38A4742BF7C51AB2E774F39033F1954 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A81F68EF3F1D9AB479A08B1A9E713A2A /* Pods_FCMapboxHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FCMapboxHelper_Example.framework; path = "Pods-FCMapboxHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E19BF80A34D0C3AE1798D363875C6F /* FCMapboxHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FCMapboxHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38A4742BF7C51AB2E774F39033F1954 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A81F68EF3F1D9AB479A08B1A9E713A2A /* Pods_FCMapboxHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCMapboxHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F65C8E84D2A09DAE8835022CCB0AB2 /* FCMapboxHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCMapboxHelper-prefix.pch"; sourceTree = "<group>"; };
-		BACB9D7231E150E7E0D153D03D9FF1F6 /* FCMapboxHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCMapboxHelper.framework; path = FCMapboxHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACB9D7231E150E7E0D153D03D9FF1F6 /* FCMapboxHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FCMapboxHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C916214B0DFAEB936F68F4976B7405B2 /* Pods-FCMapboxHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FCMapboxHelper_Example-umbrella.h"; sourceTree = "<group>"; };
 		D4E7E5AEA36F4D0DA54B84F7E3BE518A /* Pods-FCMapboxHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FCMapboxHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E0D8C07F0F5C7F892EB4B469E1222B38 /* Pods-FCMapboxHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FCMapboxHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E1D10FA69046BAE424206300A9D9891E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FCMapboxHelper/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		E9F450DEF7DB54E075DB208FC797668C /* Pods-FCMapboxHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FCMapboxHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		EA1CD0F32C63BAA7CD4D26269729425E /* FCMapboxHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCMapboxHelper.modulemap; sourceTree = "<group>"; };
 		F455BCF679BA44E6670CDC5CC989334E /* Pods-FCMapboxHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FCMapboxHelper_Tests.modulemap"; sourceTree = "<group>"; };
@@ -165,9 +165,9 @@
 		B7D36D1C600AC2567A5EE6A7196F91A1 /* FCMapboxHelper */ = {
 			isa = PBXGroup;
 			children = (
-				E1D10FA69046BAE424206300A9D9891E /* ReplaceMe.swift */,
 				2AF1F9220B207A527878A3B6B2FEDED7 /* Pod */,
 				C89A22DC1ADD6AEFFC1BB74CAA38FA3A /* Support Files */,
+				84BD624A2539DDD300710DF4 /* MGLDragDelegate.swift */,
 			);
 			name = FCMapboxHelper;
 			path = ../..;
@@ -368,7 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47054787B090D4AAABF8FCF116BE9B8D /* FCMapboxHelper-dummy.m in Sources */,
-				796D7CB81EC3078961523632B5B93370 /* ReplaceMe.swift in Sources */,
+				84BD624B2539DDD300710DF4 /* MGLDragDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,8 +622,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
