@@ -30,7 +30,7 @@ Helper Classes for Mapbox usage under Appcelerator Titanium
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FCMapboxHelper/Classes/**/*'
+  s.source_files = 'FCMapboxHelper/**/*'
   
   s.swift_version = '5.1.3'
   
