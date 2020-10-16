@@ -1,0 +1,22 @@
+{
+  "name": "FCMapboxHelper",
+  "version": "0.1.0",
+  "summary": "A short description of FCMapboxHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Igor Kalashnikov/FCMapboxHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Igor Kalashnikov": "zo0m.cfg@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Igor Kalashnikov/FCMapboxHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FCMapboxHelper/Classes/**/*"
+}

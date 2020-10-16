@@ -1,0 +1,16 @@
+PODS:
+  - FCMapboxHelper (0.1.0)
+
+DEPENDENCIES:
+  - FCMapboxHelper (from `../`)
+
+EXTERNAL SOURCES:
+  FCMapboxHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FCMapboxHelper: 34b4932bdbebdb49277677f2f9ab4ccbb3dc8ef9
+
+PODFILE CHECKSUM: 4d6b4f779541594d3cfaf01ebd6429ff24604d40
+
+COCOAPODS: 1.9.1
