@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FCMapboxHelper_Example' do
+  pod 'FCMapboxHelper', :path => '../'
+
+  target 'FCMapboxHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
