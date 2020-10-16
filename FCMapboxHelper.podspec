@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FCMapboxHelper'
-  s.version          = '0.2.5'
+  s.version          = '0.2.6'
   s.summary          = 'Mapbox Helper Classes'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Helper Classes for Mapbox usage under Appcelerator Titanium
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'FCMapboxHelper/**/*'
+  s.source_files = 'FCMapboxHelper/Classes/**/*'
   
   s.swift_version = '5.1.3'
   
