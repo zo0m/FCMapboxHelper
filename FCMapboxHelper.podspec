@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FCMapboxHelper'
-  s.version          = '0.4.1'
+  s.version          = '0.4.2'
   s.summary          = 'Mapbox Helper Classes'
 
 # This description is used to generate tags and improve search results.
@@ -42,7 +42,7 @@ Helper Classes for Mapbox usage under Appcelerator Titanium
   #   'FCMapboxHelper' => ['FCMapboxHelper/Assets/*.png']
   # }
   # s.requires_arc = true
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'FCMapboxHelper/**/*.h'
   s.frameworks = 'UIKit', 'Foundation' #, 'MapKit'
    # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Mapbox-iOS-SDK'
