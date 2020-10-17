@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FCMapboxHelper'
-  s.version          = '0.3.9'
+  s.version          = '0.4.0'
   s.summary          = 'Mapbox Helper Classes'
 
 # This description is used to generate tags and improve search results.
