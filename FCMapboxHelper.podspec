@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FCMapboxHelper'
-  s.version          = '0.4.9'
+  s.version          = '0.5.0'
   s.summary          = 'Mapbox Helper Classes'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ Helper Classes for Mapbox usage under Appcelerator Titanium
   
   s.swift_version = '5.1.3'
 
-  s.ios.vendored_frameworks = 'Frameworks/FCMapboxHelper.framework'
+  # s.ios.vendored_frameworks = 'Frameworks/FCMapboxHelper.framework'
 
-  # s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1.3' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.1.3' }
 
   # s.resource_bundles = {
     # 'FCMapboxHelper' => ['FCMapboxHelper/Assets/*.png']
@@ -47,5 +47,5 @@ Helper Classes for Mapbox usage under Appcelerator Titanium
   s.public_header_files = 'FCMapboxHelper/**/*.h'
   s.frameworks = 'UIKit', 'Foundation' #, 'MapKit'
    # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'Mapbox-iOS-SDK'
+  s.dependency 'Mapbox-iOS-SDK', '~> 5.7.0'
 end
